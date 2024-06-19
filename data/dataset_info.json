@@ -546,5 +546,26 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "debug_train": {
+    "file_name": "debug/gsm8k_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "debug_dev": {
+    "file_name": "debug/gsm8k_dev.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
+  },
+  "debug_test": {
+    "file_name": "debug/gsm8k_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
   }
 }
